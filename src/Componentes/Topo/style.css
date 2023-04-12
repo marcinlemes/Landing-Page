@@ -1,0 +1,56 @@
+header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    position:fixed;
+    z-index: 1;
+    top:0;
+}
+
+header img{
+    max-height: 35px;
+}
+
+button{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+    border:1px solid #747272;
+    border-radius: 3000px;
+    padding:6px;
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
+.header-modo-claro{
+    background-color: #fff;
+}
+
+.header-modo-escuro{
+    background-color: #252525;
+}
+
+.btn-modo-claro{
+    background-color: #fff;
+}
+
+.btn-modo-claro:hover{
+    background-color: #f1efef;
+    transition: 0.5s;
+}
+
+.btn-modo-escuro{
+    background-color: #252525;
+    border: 1px solid white;
+}
+
+.btn-modo-escuro:hover{
+    opacity: 0.8;
+}
